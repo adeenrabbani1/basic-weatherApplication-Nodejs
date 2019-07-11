@@ -1,6 +1,3 @@
-console.log('Javascript file is loaded!');
-
-
 const weatherForm = document.querySelector('form')
 const userSearch  = document.querySelector('input')
 heading = document.querySelector('#whead');
