@@ -4,7 +4,7 @@ const forecast = require('./utils/forecast')
 const express = require ('express') 
 const hbs = require('hbs') //setting up handlebars to render templates!
  const app = express()
- const port = process.env.PORT
+ const port = process.env.PORT || 3000
 //setting up express configurations
   const publicPath = path.join(__dirname , '../public')
   const viewPath = path.join(__dirname , '../templates/views' )
